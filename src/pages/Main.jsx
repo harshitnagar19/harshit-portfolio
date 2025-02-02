@@ -6,6 +6,7 @@ import Landing from "../components/Landing"
 import About from '../components/About'
 import Education from '../components/Education'
 import { headerData } from '../data/headerData'
+import Skills from '../components/Skills'
 import { Helmet } from 'react-helmet'
 function Main() {
     return (
@@ -18,8 +19,8 @@ function Main() {
             <Landing />
             <About />      
             <Education />
-            {/*  <Skills />
-            <Experience />
+             <Skills />
+           {/*  <Experience />
             <Projects />
             <Achievement />            
             <Contacts />

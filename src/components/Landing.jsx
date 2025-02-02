@@ -80,7 +80,7 @@ function Landing() {
     // const classes = useStyles();
 
     return (
-        <div className='landing'>
+        <div className='landing' id='home'>
             <div className='landing--container'>
                 <div
                     className='landing--container-left'

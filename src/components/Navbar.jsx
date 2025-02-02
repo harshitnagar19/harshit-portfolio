@@ -75,7 +75,8 @@ function Navbar() {
     const handleDrawerClose = () => setOpen(false);
 
     return (
-        <NavbarContainer>
+        <div className='fixed z-40 w-full'>
+            <NavbarContainer className=''>
             <h1 style={{ color: theme.tertiary }}>Harshit Nagar</h1>
 
             <NavMenuIcon onClick={handleDrawerOpen} />
@@ -91,7 +92,7 @@ function Navbar() {
                 <br />
                 <div onClick={handleDrawerClose}>
                     <Fade left>
-                        <NavLink to="/" smooth spy duration={2000}>
+                        <NavLink to="/#home" smooth spy duration={2000}>
                             <DrawerItem>
                                 <IoHomeSharp size={24} />
                                 <span>Home</span>
@@ -109,10 +110,10 @@ function Navbar() {
                     </Fade>
 
                     <Fade left>
-                        <NavLink to="/#resume" smooth spy duration={2000}>
+                        <NavLink to="/#education" smooth spy duration={2000}>
                             <DrawerItem>
                                 <HiDocumentText size={24} />
-                                <span>Resume</span>
+                                <span>Educat.</span>
                             </DrawerItem>
                         </NavLink>
                     </Fade>
@@ -146,6 +147,7 @@ function Navbar() {
                 </div>
             </CustomDrawer>
         </NavbarContainer>
+        </div>
     );
 }
 

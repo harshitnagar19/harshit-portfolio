@@ -4,17 +4,10 @@ import React from 'react'
 import Navbar from '../components/Navbar'
 import Landing from "../components/Landing"
 import About from '../components/About'
-// import { headerData } from '../../data/headerData'
+import Education from '../components/Education'
+import { headerData } from '../data/headerData'
 import { Helmet } from 'react-helmet'
-import resume from "../assets/pdf/resume.pdf"
 function Main() {
-    const headerData = {
-        name: 'Harshit Nagar',
-        title: "Full Stack Developer",
-        desciption: "There wasn't a bird in the sky, but that was not what caught her attention. It was the clouds. The deep green that isn't the color of clouds, but came with these. She knew what was coming and she hoped she was prepared. ",
-        image: 'https://raw.githubusercontent.com/PhantomScript/asset-container/main/developer-portfolio/landingImg.png',
-        resumePdf: resume
-    }
     return (
 
         <div>
@@ -24,8 +17,8 @@ function Main() {
               <Navbar />
             <Landing />
             <About />      
-            {/*  <Education />
-            <Skills />
+            <Education />
+            {/*  <Skills />
             <Experience />
             <Projects />
             <Achievement />            

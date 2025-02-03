@@ -9,6 +9,7 @@ import { headerData } from '../data/headerData'
 import Skills from '../components/Skills'
 import Footer from '../components/Footer'
 import Contacts from '../components/Contacts'
+import Projects from '../components/Projects/Projects'
 import { Helmet } from 'react-helmet'
 function Main() {
     return (
@@ -22,9 +23,9 @@ function Main() {
             <About />      
             <Education />
              <Skills />
-           {/*  <Experience />
+           {/*  <Experience />*/}
             <Projects />
-            */}
+            
             <Contacts /> 
             <Footer /> 
            

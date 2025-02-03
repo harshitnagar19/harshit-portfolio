@@ -6,6 +6,7 @@ import { HiDocumentText } from 'react-icons/hi';
 import { BsFillGearFill } from 'react-icons/bs';
 import { MdPhone } from 'react-icons/md';
 import { FaUser, FaFolderOpen } from 'react-icons/fa';
+import { LuProjector } from "react-icons/lu";
 import { styled } from '@mui/material/styles';
 import Drawer from '@mui/material/Drawer';
 import IconButton from '@mui/material/IconButton';
@@ -119,19 +120,27 @@ function Navbar() {
                     </Fade>
 
                     <Fade left>
-                        <NavLink to="/#services" smooth spy duration={2000}>
+                        <NavLink to="/#skills" smooth spy duration={2000}>
                             <DrawerItem>
                                 <BsFillGearFill size={24} />
-                                <span>Services</span>
+                                <span>Skills</span>
                             </DrawerItem>
                         </NavLink>
                     </Fade>
 
                     <Fade left>
-                        <NavLink to="/#blog" smooth spy duration={2000}>
+                        <NavLink to="/#experience" smooth spy duration={2000}>
                             <DrawerItem>
                                 <FaFolderOpen size={24} />
-                                <span>Blog</span>
+                                <span>Experi</span>
+                            </DrawerItem>
+                        </NavLink>
+                    </Fade>
+                    <Fade left>
+                        <NavLink to="/#projects" smooth spy duration={2000}>
+                            <DrawerItem>
+                            <LuProjector size={24}  />
+                                <span>Projec</span>
                             </DrawerItem>
                         </NavLink>
                     </Fade>

@@ -4,7 +4,7 @@ import { HiArrowRight } from 'react-icons/hi';
 import { projectsData } from '../../data/projectsData';
 import SingleProject from './SingleProject/SingleProject';
 import { styled } from '@mui/material/styles';
-import "./projects.css"
+import "./Projects.css"
 const theme = {
     type: 'dark',
     primary: '#823ae0',

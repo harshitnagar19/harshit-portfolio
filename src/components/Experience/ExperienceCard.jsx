@@ -3,7 +3,7 @@ import { styled } from '@mui/material/styles'; // Correct import for MUI v5
 import { Fade } from 'react-awesome-reveal';
 import expImgWhite from '../../assets/experience/expImgWhite.svg'
 import expImgBlack from '../../assets/experience/expImgBlack.svg'
-
+import { motion } from "framer-motion";
 import './Experience.css'
 
 const theme = {
